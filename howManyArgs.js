@@ -11,3 +11,9 @@ howManyArgs(); // -> 0
 howManyArgs(1, false, "hello"); // -> 3
 howManyArgs("better"); // -> 1
 // howManyArgs(1, 3 , 5, 6, 7, 5, 2, 4, 4, 4, 5, 6)
+
+// const howManyArgsArrow = (...args) => args.length;
+
+// console.log(howManyArgs()); // -> 0
+// console.log(howManyArgs(1, false, "hello")); // -> 3
+// console.log(howManyArgs("better")); // -> 1
