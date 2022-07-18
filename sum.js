@@ -19,11 +19,3 @@ console.log(sum(1)); // -> 1
 console.log(sum(1, 15)); // -> 16
 console.log(sum(25, 25, 20)); // -> 70
 
-// function sum(){
-//     var sum =0;
-//     for(var i=0;i<arguments.length;i++){
-//        sum += arguments[i];
-//     }
-//      return sum;
-//   }
-//   sum(1,2);
